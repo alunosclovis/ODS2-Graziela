@@ -1,0 +1,158 @@
+/* Reset básico de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7b97b;
+    color: #1d1b1b;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+/* Estilo do título principal */
+h1 {
+    text-align: center;
+    color: #1d1b1a; /* Cor verde */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Estilo dos subtítulos */
+h1,h2, h3, h4, h5 {
+    color: #060606;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Estilo das imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Estilo para parágrafos */
+p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Estilo para o contêiner .img4 */
+.img4 {
+    background-color: #f7b97b; /* Cor de fundo suave */
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+/* Estilo da imagem no contêiner .img4 */
+.img4 img {
+    max-width: 80%; /* A imagem dentro da div img4 será menor */
+    margin: 0 auto;
+    display: block;
+}
+
+/* Estilo de cabeçalhos no contêiner .img4 */
+.img4 h4 {
+    color: #131212 ; /* Cor verde */
+    text-align: center;
+    font-size: 1.8em;
+}
+
+/* Rodapé - caso precise de um rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    font-size: 1em;
+}
+
+img {
+    
+   
+    width: 300px;  /* Largura fixa para todas as imagens */
+        
+     
+    height: 200px;  }
+
+   /* Centraliza o texto dentro de qualquer elemento */
+.center-text {
+    text-align: center;
+}
+
+/* Exemplo de centralização de um título */
+h1 {
+    text-align: center;
+}
+
+/* Exemplo de centralização de parágrafos */
+p {
+    text-align: center; }
+
+    /* Centraliza o título */
+h1 {
+    text-align: center;
+    color: #070707; /* Cor opcional para o título */
+    font-size: 2.5em; /* Tamanho do texto */
+    margin-top: 20px; /* Espaço superior */
+    margin-bottom: 20px; /* Espaço inferior */
+}
+ 
+/* Centraliza o título */
+h2 {
+    text-align: center;
+    color: #121211; /* Cor opcional para o título */
+    font-size: 2.5em; /* Tamanho do texto */
+    margin-top: 20px; /* Espaço superior */
+    margin-bottom: 20px; /* Espaço inferior */
+}
+
+/* Centraliza o título */
+h3 {
+    text-align: center;
+    color: #100e0d; /* Cor opcional para o título */
+    font-size: 2.5em; /* Tamanho do texto */
+    margin-top: 20px; /* Espaço superior */
+    margin-bottom: 20px; /* Espaço inferior */
+}
+
+/* Centraliza o título */
+h4 {
+    text-align: center;
+    color: #060606; /* Cor opcional para o título */
+    font-size: 2.5em; /* Tamanho do texto */
+    margin-top: 20px; /* Espaço superior */
+    margin-bottom: 20px; /* Espaço inferior */
+}
+
+/* Centraliza o título */
+h4 {
+    text-align: center;
+    color: #151311; /* Cor opcional para o título */
+    font-size: 2.5em; /* Tamanho do texto */
+    margin-top: 20px; /* Espaço superior */
+    margin-bottom: 20px; /* Espaço inferior */
+}
+
+/* Centraliza o título */
+h5 {
+    text-align: center;
+    color: #0d0d0d; /* Cor opcional para o título */
+    font-size: 2.5em; /* Tamanho do texto */
+    margin-top: 20px; /* Espaço superior */
+    margin-bottom: 20px; /* Espaço inferior */
+}
+
+
+
+
